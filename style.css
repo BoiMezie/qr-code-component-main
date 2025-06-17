@@ -27,11 +27,11 @@ body {
 main {
     background-color: var(--white);
     width: 320px;
-    min-height: 499px;
+    height: min(50%, 4999px);
     border-radius: 20px;
     margin: auto;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 16px 16px 40px 16px;
+    --box-shadow: 0 4px 6px (var(--slate-900));
+    padding: 16px 16px 40px;
     
      
 
@@ -47,7 +47,7 @@ section .qr-text {
     width: 288px;
     height: 131px;
     margin: auto;
-    padding-left: 16px;
+    padding-inline-start: 16px;
     padding-right: 16px;
 }
 
@@ -85,7 +85,7 @@ p {
 }
 
 
-@media (max-width: 374px) {
+@media (min-width: 20rem) {
   .qr-code {
     width: 288px;
     height: 288px;
