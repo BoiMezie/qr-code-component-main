@@ -22,12 +22,12 @@ body {
     height: 100vh;
     margin: 0;
     position: relative;
-    min-width: 320px;
+    min-width: 20rem;
 }
 main {
     background-color: var(--white);
     width: 320px;
-    height: min(50%, 4999px);
+    height: min(50%, 499px);
     border-radius: 20px;
     margin: auto;
     --box-shadow: 0 4px 6px (var(--slate-900));
